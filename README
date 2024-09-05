@@ -1,16 +1,19 @@
-Hello World!
+# Hello World!
+
 This is my practice with Rebase, Merge, and Diff conflicts.
 
+- What git command creates a branch?
+  - `git branch <branch-name>`
 
-- What ***git*** command creates a branch?
-- git branch <branch name>
 - What is the difference between a fast-forward and recursive merge?
-- Fast forward Merge is when the feature has changed but the master branch has not. This moves the head to the the last feature and merges the tip with the Master.
-- What ***git*** command changes to another branch?
-- git switch or git checkout
-- What ***git*** command deletes a branch?
-- git <branch> -d 
-- git <branch> -D to force delete unmerged branches
-- How do merge conflicts happen?
-- When 2 copies of files have changes to the same content. The conflict must be resolved manually.
+  - Fast-forward Merge is when the feature branch has changed, but the master branch has not. This moves the head to the last feature commit and merges the tip with the master.
 
+- What git command changes to another branch?
+  - `git switch` or `git checkout`
+
+- What git command deletes a branch?
+  - `git branch -d <branch>`
+  - `git branch -D <branch>` to force delete unmerged branches
+
+- How do merge conflicts happen?
+  - When two copies of files have changes to the same content. The conflict must be resolved manually.
