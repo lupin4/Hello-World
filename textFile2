@@ -1,0 +1,19 @@
+Git is a distributed version control system that allows developers to track changes to their code over time. It is commonly used in software development to manage source code and collaborate with other developers.
+
+Here are some key concepts related to Git:
+
+Repository: A repository, or repo, is a collection of files and directories that make up a project. It is the central place where all the code and its history are stored.
+
+Commit: A commit represents a snapshot of the code at a specific point in time. It captures the changes made to the files in the repository. Each commit has a unique identifier called a hash, which allows you to reference it later.
+
+Branch: A branch is a separate line of development within a repository. It allows you to work on different features or bug fixes without affecting the main codebase. Branches are lightweight and can be easily created, merged, or deleted.
+
+Merge: Merging combines changes from one branch into another. When you merge a branch, Git intelligently combines the changes made in both branches, preserving the commit history.
+
+Pull: Pulling is the process of fetching the latest changes from a remote repository and integrating them into your local branch. It is typically used to update your local codebase with changes made by other developers.
+
+Push: Pushing is the process of sending your local commits to a remote repository. It allows you to share your changes with others and make them available for collaboration.
+
+Remote: A remote is a version of the repository that is hosted on a different server, such as GitHub or GitLab. It provides a centralized location for developers to collaborate and share their code.
+
+These are just a few of the fundamental concepts in Git. Git offers a wide range of features and commands to manage code history, handle conflicts, and facilitate collaboration among developers.
